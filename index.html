@@ -60,7 +60,7 @@ var sankey = d3.sankey()
 var path = sankey.link();
 
 // load the data
-d3.json("https://raw.githubusercontent.com/ACHepcat/ACHepcat.github.io/master/sourcedata-output.json", function(error, graph) {
+d3.json("sourcedata-output.json", function(error, graph) {
 //d3.json("temp2.json", function(error, graph) {
 
     var nodeMap = {};
